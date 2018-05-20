@@ -44,3 +44,8 @@ td {
     cursor: pointer;
     text-align: center;
 }
+
+th {
+    padding-left: 10px;
+    text-align: left;
+}
