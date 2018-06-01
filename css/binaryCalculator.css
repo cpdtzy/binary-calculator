@@ -49,3 +49,10 @@ th {
     padding-left: 10px;
     text-align: left;
 }
+.btns {
+    float: left;
+    width: 25%;
+    height: 36px;
+    margin: 0;
+    font-size: 18px;
+}
