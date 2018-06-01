@@ -131,7 +131,7 @@
         }
 
         public div() {
-            const mul: number = this.number / this.number2;
+            const mul: number = Math.round( this.number / this.number2 );
 
             return mul.toString(2);
         }
