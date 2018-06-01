@@ -99,8 +99,8 @@
             return mul.toString(2);
         };
         BinaryCalculation.prototype.div = function () {
-            var mul = this.number / this.number2;
-            return Math.round(Number(mul.toString(2))).toString();
+            var mul = Math.round(this.number / this.number2);
+            return mul.toString(2);
         };
         return BinaryCalculation;
     }());
