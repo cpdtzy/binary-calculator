@@ -24,7 +24,7 @@ body {
     background-color: black;
     color: red;
 }
-.btns {
+#btns button {
     float: left;
     width: 25%;
     height: 36px;
